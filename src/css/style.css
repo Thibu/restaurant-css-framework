@@ -1,0 +1,9 @@
+body{
+    background-image: url(../images/imgBody.png);
+}
+#imgAccueilRipaille{
+    background-image: url(../images/ck3_banquet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
