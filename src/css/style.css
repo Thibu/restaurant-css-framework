@@ -1,9 +1,19 @@
 body{
-    background-image: url(../images/imgBody.png);
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#imgAccueilRipaille{
+h1,h2,h3{
+    font-family: 'MedievalSharp', cursive;
+}
+header, footer{
+    background-image: url(../images/bg-baniere.jpg);
+    background-position: center;
+    background-size: contain;
+}
+/* #imgAccueilRipaille{
     background-image: url(../images/ck3_banquet.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
