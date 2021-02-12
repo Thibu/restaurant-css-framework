@@ -1,9 +1,10 @@
 body{
     background-image: url(../images/bg.jpg);
-    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
-h1,h2,h3{
+h1,h2,h3,h4,footer,nav{
     font-family: 'MedievalSharp', cursive;
 }
 header, footer{
@@ -17,3 +18,24 @@ header, footer{
     background-repeat: no-repeat;
     background-size: cover;
 } */
+.video-responsive{ 
+    padding-bottom:56.25%; 
+    position:relative; 
+    height:0;
+}
+.video-responsive iframe {
+    position:absolute;
+    left:0; 
+    top:0; 
+    height:100%;
+    width:100%;
+}
+.card-accueil{
+    width: 25rem;
+}
+.menu{
+    width: 25rem;
+}
+.text-opacity-section{
+    background-color: rgba(85, 85, 85, 0.8);
+}
