@@ -16,71 +16,73 @@
     <title>Accueil</title>
 </head>
 <body class="">
-  <header class="w-100 shadow-lg d-flex justify-content-between">
-    <h1 class="m-0 display-6 d-flex bg-light pe-2"><span class="align-items-center d-flex"><a class="align-items-center text-muted text-decoration-none" href="#">Allah'Carte</a></span></h1>
+  <header class="w-100 shadow-lg d-flex align-middle justify-content-between mb-1">
+    <h1 class="m-0 display-6 d-flex text-opacity-section pe-2"><span class="align-items-center d-flex"><a class="align-items-center text-white text-decoration-none" href="#">Allah'Carte <i class="fas fa-hamburger"></i></a></span></h1>
     <nav class="p-0 navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
+        <div class="container-fluid p-lg-0">
           <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="fs-4 navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="mx-1 my-1 rounded bg-light nav-item text-center"><a class="nav-link active" href="#">Accueil</a></li>
-              <li class="mx-1 my-1 rounded bg-light nav-item text-center"><a class="nav-link" href="src/pages/carte.html#cartes">Carte</a></li>
-              <li class="mx-1 my-1 rounded bg-light nav-item text-center"><a class="nav-link" href="src/pages/photos.html">Photos</a></li>
-              <li class="mx-1 my-1 rounded bg-light nav-item text-center"><a class="nav-link" href="src/pages/restaurants.html">Restaurants</a></li>
-              <li class="mx-1 my-1 rounded bg-light nav-item text-center"><a class="nav-link" href="src/pages/contact.html#formulaire">Contact</a></li>
+              <li class="mx-1 my-lg-0 my-1 rounded text-opacity-section nav-item text-center"><a class="text-white nav-link active" href="#">Accueil</a></li>
+              <li class="mx-1 my-lg-0 my-1 rounded text-opacity-section nav-item text-center"><a class="text-white nav-link" href="src/pages/carte.html#cartes">Carte</a></li>
+              <li class="mx-1 my-lg-0 my-1 rounded text-opacity-section nav-item text-center"><a class="text-white nav-link" href="src/pages/photos.html">Photos</a></li>
+              <li class="mx-1 my-lg-0 my-1 rounded text-opacity-section nav-item text-center"><a class="text-white nav-link" href="src/pages/restaurants.html">Restaurants</a></li>
+              <li class="mx-1 my-lg-0 my-1 rounded text-opacity-section nav-item text-center"><a class="text-white nav-link" href="src/pages/contact.html#formulaire">Contact</a></li>
             </ul>
           </div>
         </div>
       </nav>
   </header>
-  <section class="mb-5 container d-flex flex-column justify-content-center text-opacity-section" id="imgAccueilRipaille">
-    <div class="d-flex flex-column text-center">
-      <h2 class="display-3 pt-1 text-white mx-auto">Restaurant Allah'Carte ouvert pour tous les pèlerins !</h2>
-      <div class="video-responsive">
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/fIuO3RpMvHg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <h2 class="fs-1 w-75 pt-3 text-white mx-auto">Tu peux voir ci-dessous los différents lieux saints pour ripailler dans la joie et la bonne humeur !</h2>
-    </div>
+  <section class="container min-vh-100 d-flex flex-column justify-content-center align-items-center text-opacity-section">
+    <h2 class="display-4 col-12 pt-1 pt-md-1 pb-1 pb-lg-5 text-center text-white">Tu peux voir ci-dessous los différents lieux saints pour ripailler dans la joie et la bonne humeur !</h2>
     <div class="d-flex flex-column flex-lg-row justify-content-around">
       <div class="mt-2 card col-12 col-lg-4">
         <i class="card bg-secondary bg-gradient py-2 text-center fab fa-fort-awesome-alt fa-4x"></i>
           <div class="card-body">
-            <h5 class="card-title">Rome</h5>
+            <h5 class="card-title">Colisée de Rome</h5>
             <p class="card-text">L'histoire de la ville de Rome est ancienne et complexe. Le présent article traite principalement des origines de la ville, du développement de la République romaine, de la naissance et du déclin de l'Empire romain.</p>
-            <a href="#" class="btn btn-primary">Vers Rome</a>
+            <a href="src/pages/restaurants.html#collapseOne" class="btn btn-primary">Vers Rome</a>
           </div>
       </div>
       <div class="mt-2 card col-12 col-lg-4">
         <i class="card bg-secondary bg-gradient py-2 text-center fas fa-mosque fa-4x"></i>
           <div class="card-body">
-            <h5 class="card-title">Jerusalem</h5>
+            <h5 class="card-title">Mosquée de Jerusalem</h5>
             <p class="card-text">Jérusalem est mentionnée pour la première fois dans les textes égyptiens dits « d'exécration »3,4 (xxe et xixe siècles av. J.-C., à la période où l'Égypte a vassalisé Canaan) sous le nom de Rushalimu.</p>
-            <a href="#" class="btn btn-primary">Vers Jerusalem</a>
+            <a href="src/pages/restaurants.html#collapseTwo" class="btn btn-primary">Vers Jerusalem</a>
           </div>
       </div>
     </div>       
-    <div class="col-12 col-lg-10 mt-2 mx-auto mb-3">
+    <div class="col-12 col-lg-10 mt-2 mt-md-5 mx-auto mb-3">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">News :</h5>
           <p class="card-text">Venez goûter notre tout nouveau burger à base de sandale de croisé tombé au combat !</p>
-          <a href="#" class="card-link">Vers Rome!</a>
-          <a href="#" class="card-link">Vers Jerusalem!</a>
+          <a href="src/pages/carte.html#carteRome" class="card-link">Menu de Rome</a>
+          <a href="src/pages/carte.html#carteJerusalem" class="card-link">Menu de Jerusalem</a>
         </div>
         <hr class="w-75 m-auto">
         <div class="card-body">
           <p class="card-text">La Pizz'Allah' aux 4 continents vient de sortir ! Dépêchez vous de venir la goûter !</p>
-          <a href="#" class="card-link">Vers Rome!</a>
-          <a href="#" class="card-link">Vers Jerusalem!</a>
+          <a href="src/pages/carte.html#carteRome" class="card-link">Menu de Rome</a>
+          <a href="src/pages/carte.html#carteJerusalem" class="card-link">Menu de Jerusalem</a>
         </div>
+      </div>
+    </div>  
+  </section>
+  <section class="container d-flex flex-column justify-content-center text-opacity-section">
+    <div class="d-flex flex-column text-center">
+      <h2 class="display-3 pt-1 text-white mx-auto">Restaurant Allah'Carte ouvert pour tous les pèlerins !</h2>
+      <div class="video-responsive">
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/fIuO3RpMvHg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </section>
-  <footer class="fixed-bottom">
-    <div class="mw-100 text-center">
-      <span class="text-muted badge rounded-pill bg-light fs-3">Copyright Jean-Paul 2</span>
+  <footer class="bottom">
+    <div class="col-12 text-center">
+      <span class="text-muted badge rounded-pill bg-light fs-3">Copyright © Jean-Paul 2</span>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>

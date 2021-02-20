@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg-2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -8,16 +8,10 @@ h1,h2,h3,h4,h5,footer,nav{
     font-family: 'MedievalSharp', cursive;
 }
 header, footer{
-    background-image: url(../images/bg-baniere.jpg);
+    /* background-image: url(../images/bg-baniere.jpg); */
     background-position: center;
     background-size: contain;
 }
-/* #imgAccueilRipaille{
-    background-image: url(../images/ck3_banquet.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 .video-responsive{ 
     padding-bottom:56.25%; 
     position:relative; 
